@@ -4,5 +4,5 @@
 ```
 npm install express
 npm install mongodb
-npm install express-handlerbars
+npm install express-handlebars
 ```
