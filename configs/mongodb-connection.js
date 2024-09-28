@@ -1,7 +1,7 @@
-const {mongoClient} = require('mongodb');
+const {MongoClient} = require('mongodb');
 
-const url = "mongodb+srv://wltndud:wltndud@cluster0/board";
+const uri = "mongodb+srv://wltndud:wltndud@cluster0.legya.mongodb.net/board";
 
 module.exports = function (callback){
-    return MongoClient.connect(url, callback);
+    return MongoClient.connect(uri, callback);
 };

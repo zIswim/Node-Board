@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon app.js"
   },
   "private": true,
   "author": "",
@@ -12,6 +13,7 @@
   "dependencies": {
     "express": "^4.21.0",
     "express-handlebars": "^8.0.1",
-    "mongodb": "^6.9.0"
+    "mongodb": "^6.9.0",
+    "nodemon": "^2.0.20"
   }
 }
